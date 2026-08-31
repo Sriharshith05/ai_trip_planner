@@ -11,7 +11,7 @@ load_dotenv()
 
 class ConfigLoader:
     def __init__(self):
-        self.config = load_config()
+        self.config = load_config() #yaml loader
 
     def __getitem__(self, key):
         return self.config[key]
