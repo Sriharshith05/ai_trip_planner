@@ -1,0 +1,9 @@
+llm:
+  openai:
+    provider: "openai"
+    model_name: "o4-mini"
+  groq:
+    provider: "groq"
+    model_name: "llama-3.3-70b-versatile" # general-purpose, good default
+    # or: "openai/gpt-oss-120b"             # if you want stronger reasoning
+    # or: "deepseek-r1-distill-llama-70b-specdec"  # NOTE: also check this — it may be deprecated too per the same announcement
